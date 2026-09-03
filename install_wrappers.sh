@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+install -d /app/bin
+
 for b in verge{d,-qt,-cli,-tx}
 do
   echo '#!/usr/bin/bash' > /app/bin/$b
